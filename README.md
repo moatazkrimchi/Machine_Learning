@@ -6,7 +6,7 @@ prédire la nature d'une fleur iris
 
 on utilisera le célèbre jeu de données IRIS. Ce dernier est une base de données regroupant les caractéristiques de trois espèces de fleurs d’Iris, à savoir Setosa, Versicolour et Virginica. Chaque ligne de ce jeu de données est une observation des caractéristiques d’une fleur d’Iris. Ce dataset décrit les espèces d’Iris par quatre propriétés : longueur et largeur de sépales ainsi que longueur et largeur de pétales. La base de données comporte 150 observations (50 observations par espèce).
 
-On a utiliser l'algorithme <strong> Random Forest <strong/>
+On a utiliser l'algorithme <strong> Random Forest </strong>
 
 ![image](https://user-images.githubusercontent.com/74151613/151856357-920302df-76f1-4585-92e1-9ea16e015181.png)
   
@@ -18,7 +18,10 @@ On a utiliser l'algorithme <strong> Random Forest <strong/>
 ## 2 - Main Equipement 
   
   On a predit en utiliser all equipement d'une voiture les main equipment <br/>
-  Algorithme utilisé : <strong> OneVsRestClassifier <strong/> - lorsque nous voulons faire une classification multiclasse ou multiétiquette et que sa stratégie consiste à ajuster un classificateur par classe . Pour chaque classificateur, la classe est ajustée par rapport à toutes les autres classes. (Ceci est assez clair et cela signifie que le problème de la classification multiclasse/multiétiquette est décomposé en plusieurs problèmes de classification binaire).
+  
+  Algorithme utilisé :
+  
+  <strong> OneVsRestClassifier </strong> - lorsque nous voulons faire une classification multiclasse ou multiétiquette et que sa stratégie consiste à ajuster un classificateur par classe . Pour chaque classificateur, la classe est ajustée par rapport à toutes les autres classes. (Ceci est assez clair et cela signifie que le problème de la classification multiclasse/multiétiquette est décomposé en plusieurs problèmes de classification binaire).
   
    
 Datasets : Source main equipment : [cars_data.csv](https://github.com/moatazkrimchi/Machine_Learning/files/7964208/cars_data.csv)  <br/>
@@ -28,7 +31,9 @@ Datasets : Source main equipment : [cars_data.csv](https://github.com/moatazkrim
   
   Utilisation des algorithmes de machine Learning pour la mise en œuvre d’un système de prédiction de l’accord ou du refus d’un crédit de logement à un client d’une banque en fonction de ses caractéristiques. <br/>
   
- Algorithme utilisé :  <strong> régression logistique  <strong/> une méthode très utilisée car elle permet de modéliser des variables binomiales (typiquement binaires), multinomiales (variables qualitatives à plus de deux modalités) ou ordinales (variables qualitatives dont les modalités peuvent être ordonnées).
+ Algorithme utilisé :  
+ 
+ <strong> régression logistique </strong> une méthode très utilisée car elle permet de modéliser des variables binomiales (typiquement binaires), multinomiales (variables qualitatives à plus de deux modalités) ou ordinales (variables qualitatives dont les modalités peuvent être ordonnées).
   
 Datasets : https://www.kaggle.com/sazid28/home-loan <br/>
 
@@ -60,4 +65,4 @@ Des données manquantes peuvent exister dans les données en raison d'une « omi
 ![image](https://user-images.githubusercontent.com/74151613/151880551-ad261e33-73e4-4ad8-aadd-652cbb2f8e49.png)
 ![image](https://user-images.githubusercontent.com/74151613/151880523-45e5bd9a-3c56-481b-bf96-27e142260fab.png)
   
-  <strong> Pandas, Numpy, Matplotlib, Seaborn, Sklearn <strong/>
+  <strong> Pandas, Numpy, Matplotlib, Seaborn, Sklearn</strong>
